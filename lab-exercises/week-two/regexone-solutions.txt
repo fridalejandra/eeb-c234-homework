@@ -1,0 +1,20 @@
+lab 2
+
+1.  abc
+1.5 123
+2.  \.
+3.  [cmf]an
+4.  [ ^b]og
+5. [A-C][n-p][a-c]
+6. waz{3,5}up
+7. aa+b*c+
+8. \d+ files?found\?
+9. \sabc
+10. ^M
+11. (\w+\.pdf)$
+12. (\w+)\.pdf$
+13. (...\s(\d+))
+14. (\d{4}).(\d{3,4})
+15. I love ([c]ats*|[d]ogs*)
+16. .*
+
