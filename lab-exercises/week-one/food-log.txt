@@ -6,4 +6,9 @@ Dinner: rice and beans -Mon
 
 Breakfast: cream cheese bagel w/ coffee -Tues
 
+Lunch: chicken tikka masala   -Tues
+
+Dinner: enchiladas       -Tues
+
+
 
