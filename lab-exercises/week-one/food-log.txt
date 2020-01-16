@@ -12,5 +12,9 @@ Dinner: enchiladas       -Tues
 
 Breakfast: oatmeal and coffee - Wed
 
+Lunch: Mushroom Risotto - Wed
+
+Dinner: Tacos  - Wed
+
 
 
