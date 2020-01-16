@@ -1,0 +1,95 @@
+Week-Two-Exercise 
+##Commands from the tutorial 
+pwd 
+
+ls -F 
+ 
+#creating a directory
+
+mkdir Thesis #making directory 
+
+ls -F        #checking if directory was made 
+
+#creating a text file 
+cd Thesis #changing working directory to the one just made 
+
+nano draft.txt #making a text file 
+
+*typed in text file* 
+
+*ctrl+o* + *enter* #saving what is in the text file
+
+*ctrl+x*  #quiting editor and returns to shell 
+
+#checking for the txt file 
+ 
+ls # outputs file 
+
+#creating files in a different way 
+
+touch my_file.txt
+
+1. The "touch" command essentially creates a new file. The file can be viewed in the GUI explorer and using the "ls" command. 
+2. when using the "ls -l" command, we can see the my_file.txt has zero bytes. 
+3. we can use this when we need a blank text file 
+
+#moving files and directories 
+cd Thesis #going back to Thesis directory 
+
+mv Thesis/draft.txt Thesis/quotes.txt # moving the first text file to the second, basically renaming the file 
+
+cd Thesis 
+
+ls  # returned the "quotes.txt" file 
+
+mv Thesis/quotes.txt. # moving to pwd 
+
+ls Thesis #quotes file is no longer in here 
+
+ls quotes.txt #brings up the file
+
+#copying files and directories 
+cp quotes.txt Thesis/quotations.txt #copying txtx file to thesis directory 
+ls quotes.tct Thesis/quotations.txt #verifying the quotes file had been copied 
+
+
+cp -r Thesis Thesis_backup # this is using the recursive option and it just backups to a directory
+ls Thesis Thesis_backup #gives us the files in the directories 
+
+#renaming files 
+2. The command "mv" would rename the file so the answer is #2, mv statstics.txt statistics.tx 
+
+#moving and copying
+The closing of the "ls" command in each of the lines 
+2. the "recombine", in which we can then see what is listed in the "recombine" folder that was created through "mkdir"
+
+#removing files and directories 
+rm quotes.txt #removing said file
+
+ls quotes.txt #verifying said file was removed 
+
+1. when using "rm -i Thesis_backup/quotations.txt we are making sure that is all that is being deleted and it makes sure you want to delete with a Y/N option
+
+rm Thesis  # this command did not work because it can only work on removing files 
+rm -r Thesis #deletes the directory 
+
+#operations with multiple files and directories 
+1. when using multiple file names, "cp" command it will give an error if the last arguement is not a directory
+
+#list filenames, matching a pattern 
+3. the ls command that will produce "ethane.pdb methane.pdb" is "ls *t??ne.pdb" because * matches zero or more characters and "?" matches exactly one character. 
+
+# more on wildcards-filling in the blanks 
+cp*calibration.txt backup/calibration
+cp 2015-11-* send_to_bob/all_november_files/
+cp*-23-datasets* send_to_bob/all_datasets_created_on_a_23rd/
+
+#organizing directories and files 
+1. mv *.dat analyzed 
+
+#Reproduce a folder structure 
+1-2. the first two command boxes will create said folder structure as directories and folders must be created in order, at a time
+
+
+
+
