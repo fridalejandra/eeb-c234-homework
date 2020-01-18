@@ -27,4 +27,6 @@ Breakfast: captain crunch cereal -Fri
 
 Lunch: stir fry - Fri
 
+Dinner: Pizza -Fri
+
 
