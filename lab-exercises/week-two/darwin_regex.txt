@@ -1,0 +1,15 @@
+1. \bs\S*\b
+
+2. (\w+)\.
+
+3. \s*[^.?]*
+
+4. \s*[^.?]*struggle for existence[^.?]\?
+
+Bonus Question 
+
+(?:^|(?:[.!?]\s))(\w+)
+
+The question mark colon combination "?:" allows us to match but not necessarily capture.So we are matching all the words "(\w+)", after the punctuation and space "(?:[.!?]\s)" and capturing just the word "w\+".
+
+
