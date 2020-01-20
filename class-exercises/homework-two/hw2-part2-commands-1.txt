@@ -1,0 +1,11 @@
+The commands I used to complete this task was first go to the said directory
+1. ~/Developer/repos/CSB/unix/data/
+
+then I piped the two commands to save the 25 lines using the "h" command
+
+2. head -n 25 Pacifici2013_data.csv | nano Pacifici-25lines.txt
+
+after that I saved the ".txt.saved" as just text by renaming it to just "txt" and using the "mv" command to move the file to the homework-two folder. 
+
+
+
