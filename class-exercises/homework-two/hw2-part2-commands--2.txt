@@ -1,0 +1,9 @@
+The first thing I did was go into the said directory of the file in question 
+
+1. cd ~/Developers/repos/CSB/unix/data/
+
+then I did the word count and head count (which gives the lines) and saved it into a text file. 
+
+2. wc | head -n 24 Pacifici2013_data.csv | nano Pacifici-25wordcount.txt
+
+3. then moved the file using the "mv" command to move the file to the homework-two folder.
