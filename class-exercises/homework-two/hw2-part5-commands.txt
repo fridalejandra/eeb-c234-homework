@@ -1,0 +1,12 @@
+I piped several commands: 
+
+1. first removing the header "tail -n +2 Pacifici2013_data.csv" 
+
+2. then taking only the 2-6 columns "cut -d ";" -f 2-6" 
+
+3. then changing the current delimeter with a space "tr ";" "" "
+
+4. then sorting the file from -r for reverse order -n will sort numerically and -k will specify the column "sort -r -n -k 6"
+while the "> bodym.csv" outputs the pipe commands to that csv file. 
+
+
