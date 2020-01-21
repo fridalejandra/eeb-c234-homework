@@ -1,0 +1,1 @@
+TaxID;Order;Family;Genus;Scientific_name;AdultBodyMass_g;Sources_AdultBodyMass;Max_longevity_d;Sources_Max_longevity;Rspan_d;AFR_d;Data_AFR;Calculated_GL_d;GenerationLength_d;Sources_GL
