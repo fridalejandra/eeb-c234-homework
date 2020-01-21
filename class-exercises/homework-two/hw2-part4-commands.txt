@@ -1,0 +1,9 @@
+# Comands for Part 4 
+
+1. sort fish_species.txt | nano fishes_sort.txt
+
+2. sort -r fish_species.txt | nano fishes-rev-sort.txt
+
+3. sort fish_species.txt | uniq | nano fishes-unique.txt
+
+
