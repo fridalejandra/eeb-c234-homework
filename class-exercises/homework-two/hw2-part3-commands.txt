@@ -1,0 +1,9 @@
+The commands I used to complete this task for the Pacifici-ten.txt was:
+
+tail -n +2 Pacifici2013_data.csv | head -n 10 | nano Pacifici-ten.txt
+
+then I moved this file to the homework-two/ dir using the "mv" command
+
+## It is unclear if this text file only requires the commands for this last task? *clarification question*
+
+
